@@ -1,3 +1,35 @@
 body {
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-color: rgb(58, 226, 170);
+}
+h1{
+    color:rgb(58, 226, 170) ;
+}
+p{
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 1px;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }

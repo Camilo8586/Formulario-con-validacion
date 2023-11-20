@@ -10,35 +10,36 @@
     <script src="./script.js"></script>
 </head>
 <header>
+<div class="header">
     <h1>Formulario con validación</h1>
-    <p>Hola, bienvenido a este formulario que nos va a ayudar a saber más de ti, por favor recuerda que debes llenar todos los espacios antes de subir el formulario</p>
+</div>
+<div class="header">
+<p>Hola, bienvenido a este formulario que nos va a ayudar a saber más de ti, por favor recuerda que debes llenar todos los espacios antes de subir el formulario</p>
+</class>
 </header>
 <body>
     <form name="formulario">
-        <div class="col-md-6">
+        <div class="formulario">
             <label for="inputNombre" class="form-label">Nombre</label>
             <input type="text" name="nombre" class="form-control" id="inputNombre" placeholder="Escribe tu nombre aquí">
         </div>
-        <div class="col-md-6">
+        <div class="formulario">
             <label for="inputNombre" class="form-label">Apellido</label>
             <input type="text" name="apellido" class="form-control" id="inputApellido" placeholder="Escribe tu apellido aquí">
         </div>
-        <div class="col-12">
-            <input type="submit" class="btn btn-primary" id="btn" name="btn" value="Enviar">
-        </div>
-        <div class="form-check">
+        <div class="formulario">
             <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault1">
             <label class="form-check-label" for="flexRadioDefault1">
             Hombre
             </label>
             </div>
-        <div class="form-check">
+        <div class="formulario">
             <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault1">
             <label class="form-check-label" for="flexRadioDefault1">
             Mujer
             </label>
         </div>
-        <div class="col-12">
+        <div class="formulario">
             <div class="form-check">
             <input class="form-check-input" type="checkbox" name="checking" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
@@ -46,6 +47,13 @@
             </label>
             </div>
         </div>
+        <div class="formulario">
+            <input type="submit" class="btn btn-primary" id="btn" name="btn" value="Enviar">
+        </div>
     </form>
 </body>
+<footer>
+    <p>¿Quieres saber más de nosotros?, contáctenos al siguiente link</p>
+    <p>https://www.youtube.com/@NoDisponible_music</p>
+</footer>
 </html>
